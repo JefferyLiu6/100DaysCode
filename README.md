@@ -54,7 +54,6 @@ Each folder contains:
 ## 🏆 Goals
 
 - [ ] Complete all 100 days of projects.
-- [ ] Write daily reflections and notes.
 - [ ] Build a portfolio of Python projects.
 - [ ] Improve problem-solving and coding skills.
 
