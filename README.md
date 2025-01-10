@@ -65,17 +65,17 @@ This repository is organized into folders for each day, with the respective proj
 
 ```python
 100-days-of-code/
-├── Day01_Band_Name_Generator/
-│   ├── band_name_generator.py
+├── Day01/
+│   ├── band_name_project.py
 │   └── README.md
-├── Day02_Tip_Calculator/
+├── Day02/
 │   ├── tip_calculator.py
 │   └── README.md
-├── Day03_Treasure_Island_Game/
+├── Day03/
 │   ├── treasure_island.py
 │   └── README.md
 ...
-└── Day100_Final_Project/
+└── Day100/
     ├── final_project.py
     └── README.md
 ```
