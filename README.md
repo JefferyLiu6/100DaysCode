@@ -28,3 +28,18 @@ This course is designed to help students:
 ## 📚 Repository Structure
 
 This repository is organized into folders for each day, with the respective projects and exercises.
+
+100-days-of-code/
+├── Day01_Band_Name_Generator/
+│   ├── band_name_generator.py
+│   └── README.md
+├── Day02_Tip_Calculator/
+│   ├── tip_calculator.py
+│   └── README.md
+├── Day03_Treasure_Island_Game/
+│   ├── treasure_island.py
+│   └── README.md
+...
+└── Day100_Final_Project/
+    ├── final_project.py
+    └── README.md
