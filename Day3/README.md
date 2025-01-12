@@ -15,3 +15,7 @@
      - **Blue**: Beasts (Game Over)
      - **Yellow**: Treasure (You Win!)
 3. The game ends with a win or a "Game Over."
+
+---
+
+Enjoy your journey on Treasure Island! 🏝️💎
