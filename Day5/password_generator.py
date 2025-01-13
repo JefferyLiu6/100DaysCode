@@ -8,9 +8,10 @@ nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 import random
-le = []
-nu = []
-sy = []
+
+le = [] # A new list contains the numbers of letter decided by user
+nu = [] # A new list contains the numbers of number decided by user
+sy = [] # A new list contains the numbers of symbol decided by user
 idx = 0
 
 for i in range(nr_letters):
