@@ -1,3 +1,4 @@
+'''
 def turn_right():    
     turn_left()
     turn_left()
@@ -15,3 +16,4 @@ while not at_goal():
         move()
     else:
         turn_left()
+'''
