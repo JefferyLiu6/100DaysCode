@@ -30,3 +30,8 @@ The logic ensures that the character eventually finds the goal.
    - `at_goal()`: Checks if the character has reached the goal.
 
 2. The character will navigate the maze automatically using the logic in the program.
+
+## Notes
+
+- The program assumes the maze has clear boundaries and the goal is reachable.
+- The `turn_right()` function is implemented using three left turns since no direct `turn_right()` function is provided.
