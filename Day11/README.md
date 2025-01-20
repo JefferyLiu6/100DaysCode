@@ -14,3 +14,13 @@ This is a Python implementation of the popular card game **Blackjack**. The prog
 - Provides an interactive gameplay experience.
 
 ---
+
+## Rules
+
+1. The goal is to get as close to 21 as possible without going over.
+2. Aces (`11`) can count as `1` if the total score exceeds `21`.
+3. Player starts with two cards and can choose to "hit" (draw another card) or "stand" (end their turn).
+4. Dealer draws until their total is `17` or higher.
+5. Blackjack (an Ace and a card worth `10`) wins automatically unless both the player and dealer have it (resulting in a draw).
+
+---
