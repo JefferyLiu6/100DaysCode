@@ -24,3 +24,32 @@ This is a Python implementation of the popular card game **Blackjack**. The prog
 5. Blackjack (an Ace and a card worth `10`) wins automatically unless both the player and dealer have it (resulting in a draw).
 
 ---
+
+## Usage
+
+1. Clone this repository or copy the script to your local environment.
+2. Ensure you have Python 3.x installed.
+3. Run the script:
+   ```bash
+   python blackjack.py
+   ```
+4. Follow the interactive prompts to play the game.
+
+### Example Interaction
+
+#### Input:
+```
+Do you want to play a game of Blackjack? Type 'y' or 'n': y
+Your cards: [10, 7], current score: 17
+Computer's first card: 6
+Type 'y' to get another card, type 'n' to pass: n
+```
+
+#### Output:
+```
+Your final hand: [10, 7], final score: 17
+Computer's final hand: [6, 10, 3], final score: 19
+You lose 😤
+```
+
+---
