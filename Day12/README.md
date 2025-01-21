@@ -25,3 +25,20 @@ This is a Python implementation of a **Number Guessing Game**, where the user at
    python number_guessing_game.py
    ```
 4. Follow the interactive prompts to play the game.
+
+### Example Interaction
+
+#### Input:
+```
+Choose a difficulty. Type 'hard' or 'easy': easy
+You have 10 attempts remaining to guess the number.
+Make a guess: 50
+```
+
+#### Output:
+```
+Too low.
+Guess again.
+You have 9 attempts remaining to guess the number.
+Make a guess: 75
+```
