@@ -15,3 +15,13 @@ This is a Python implementation of a **Number Guessing Game**, where the user at
 - Informs the user if they run out of attempts.
 
 ---
+
+## Usage
+
+1. Clone this repository or copy the script to your local environment.
+2. Ensure you have Python 3.x installed.
+3. Run the script:
+   ```bash
+   python number_guessing_game.py
+   ```
+4. Follow the interactive prompts to play the game.
