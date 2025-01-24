@@ -23,3 +23,16 @@ This is a Python implementation of a **Coffee Machine Program** that simulates t
   - `off`: Stops the program.
 
 ---
+
+## Usage
+
+1. Clone this repository or copy the script to your local environment.
+2. Run the script:
+   ```bash
+   python coffee_machine.py
+   ```
+3. Follow the interactive prompts to:
+   - Select a drink.
+   - Insert coins.
+   - Check resource reports.
+   - Enjoy your coffee!
