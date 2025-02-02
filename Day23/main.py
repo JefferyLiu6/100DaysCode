@@ -7,7 +7,7 @@ from scoreboard import Scoreboard
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.tracer(0)
-
+screen.title("turtle-crossing")
 player = Player()
 car_manager = CarManager()
 scoreboard = Scoreboard()
@@ -30,8 +30,8 @@ while game_is_on:
             scoreboard.game_over()
 
     #Detect successful crossing
-    if player.is_at_finish_line():
-        player.go_to_start()
+    if player.is_finish():
+        player.go_to_starting()
         car_manager.level_up()
         scoreboard.increase_level()
 
