@@ -1,15 +1,10 @@
-# Keyword Method with iterrows()
-# {new_key:new_value for (index, row) in df.iterrows()}
+import pandas as pd 
 
-import pandas
+df = pd.read_csv("./Day26/nato_phonetic_alphabet.csv")
 
-data = pandas.read_csv("nato_phonetic_alphabet.csv")
-#TODO 1. Create a dictionary in this format:
-phonetic_dict = {row.letter: row.code for (index, row) in data.iterrows()}
-print(phonetic_dict)
 
-#TODO 2. Create a list of the phonetic code words from a word that the user inputs.
+name_list = {row[0]:row[1] for (index, row) in df.iterrows()}
 
-word = input("Enter a word: ").upper()
-output_list = [phonetic_dict[letter] for letter in word]
-print(output_list)
+word = input("Please input a word: ").upper()
+out = [name_list[letter] for letter in word]
+print(out)
