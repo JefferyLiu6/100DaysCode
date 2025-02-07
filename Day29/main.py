@@ -14,6 +14,9 @@ def save_pwd():
     f = open("./Day29/output.txt", "a")
     f.write(out)
     f.close()
+    input_1.delete(0, END)
+    input_2.delete(0, END)
+    input_3.delete(0, END)
 
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
