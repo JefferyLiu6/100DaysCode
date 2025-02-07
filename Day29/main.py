@@ -1,27 +1,29 @@
 from tkinter import *
+from tkinter import messagebox
 WHITE =  "#FFFFFF"
 import random
 from password_generator import generate_password
+import os
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def pwd_gen():
     password = generate_password()
     input_3.insert(0,str(password))
-    
+
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save_pwd():
     a = input_1.get()
     b = input_2.get()
     c = input_3.get()
     out = f"\n{a} | {b} | {c}"
-
-
-    f = open("./Day29/output.txt", "a")
-    f.write(out)
-    f.close()
-    input_1.delete(0, END)
-    input_2.delete(0, END)
-    input_3.delete(0, END)
+    is_ok = messagebox.askokcancel(title = "wbebsite", message= f"You are about to create an account\nEmail: {a}\nPassword: {b}\n")
+    if is_ok:
+        f = open("./Day29/output.txt", "a")
+        f.write(out)
+        f.close()
+        input_1.delete(0, END)
+        input_2.delete(0, END)
+        input_3.delete(0, END)
 
 
 # ---------------------------- UI SETUP ------------------------------- #
