@@ -110,15 +110,6 @@ Each folder contains:
 
 ---
 
-## 🤝 Contributing
-
-This repository is part of my personal learning journey. However, I welcome feedback, suggestions, and collaboration. If you'd like to contribute:
-1. Fork the repository.
-2. Make your changes.
-3. Create a pull request!
-
----
-
 ## 📜 License
 
 This project is licensed under the MIT License.
